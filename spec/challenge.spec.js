@@ -14,7 +14,7 @@ const challenge = require('../lib/challenge');
 
 describe('Double base palindromes', function () {
 
-  xdescribe('Bases 2 and 10 for numbers less than 10', function () {
+  describe('Bases 2 and 10 for numbers less than 10', function () {
     it('returns 25', function () {
       expect(challenge.doubleBasePalindromeSum(2, 10, 10)).to.equal(25);
     });
